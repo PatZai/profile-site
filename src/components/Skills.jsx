@@ -1,6 +1,6 @@
 const Skills = () => {
   return (
-    <div class="skills">
+    <div id="skills">
       <h2>SKILLS</h2>
       <i class="fa-brands fa-html5 skills-custom"></i>
       <i class="fa-brands fa-css3-alt skills-custom"></i>

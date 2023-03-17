@@ -1,6 +1,6 @@
 const About = () => {
   return (
-    <div class="about ">
+    <div id="about">
       <div class="about-icon ">
         <i class="fa-regular fa-user fa-custom"></i>
       </div>

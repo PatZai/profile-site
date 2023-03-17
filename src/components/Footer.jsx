@@ -1,6 +1,6 @@
 const Footer = () => {
   return (
-    <div class="footer">
+    <div id="footer">
       <div class="contacts">
         <h2> Contact Me Here </h2>
         <a href="">

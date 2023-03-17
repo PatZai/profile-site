@@ -1,6 +1,7 @@
 const Skills = () => {
   return (
-    <div class="projects">
+    <div id="projects">
+      <h2>PROJECTS</h2>
       <p class="moving-object">UNDER CONSTRUCTION</p>
     </div>
   );

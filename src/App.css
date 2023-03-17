@@ -1,0 +1,164 @@
+/* General Styles */
+h1, h2, h3, h4, h5, h6 ,.typed-out, .navbar-brand{
+  font-family: 'Volkhov', serif;
+}
+p {
+  font-family: 'Nanum Gothic', sans-serif;
+}
+body {
+  background-color: rgb(8, 8, 19);
+  color: #00aa00;
+}
+
+/* scrollbar */
+
+::-webkit-scrollbar{
+  width: 2px;
+}
+
+::-webkit-scrollbar-track{
+  background-color: transparent;
+}
+
+::-webkit-scrollbar-thumb{
+  background-color: #00aa00;
+}
+
+::-webkit-scrollbar:hover{
+  background-color: transparent;
+  width: 10px;
+  position: relative;
+}
+
+/* navbar */
+
+.navbar-toggler-icon {
+  background-image: url("data:image/svg+xml;charset=utf8,%3Csvg viewBox='0 0 30 30' xmlns='http://www.w3.org/2000/svg'%3E%3Cpath stroke='%2300aa00' stroke-width='2' stroke-linecap='round' stroke-miterlimit='10' d='M4 7h22M4 15h22M4 23h22'/%3E%3C/svg%3E");
+}
+
+.navbar-custom{
+  background-color: rgb(0, 0, 0);
+  position:fixed;
+  top: 0;
+  width: 100%;
+}
+
+.nav-link, .navbar-brand {
+  color:#00aa00;
+}
+
+.navbar-brand{
+  font-size: 2em;
+}
+/* home */
+
+.home {
+  margin: 420px auto;  /* 890 for whole page */
+  text-align: center;
+}
+
+.typed-container{
+  display: inline-block;
+}
+
+.typed-out {
+  overflow: hidden;
+  border-right: .15em solid #00aa00; 
+  white-space: nowrap;
+  font-size: 4em;
+  width: 0 ;
+  animation: 
+      typing 2s steps(20, end) forwards,
+      blink .8s infinite;
+}
+
+@keyframes typing {
+  from {width: 0;}
+  to {width: 100%;}
+}
+
+@keyframes blink {
+  from {border-color: transparent;}
+  to {border-color: #00aa00;}
+}
+
+/* about */
+
+.about{
+  padding: 100px;
+  background-color: rgb(0, 0, 0);
+}
+
+.about-desc, .about-icon {
+  width: 65%;
+  text-align: center;
+  margin: auto;
+}
+
+.about-desc {
+  padding-top: 50px;
+}
+.about-desc > p {
+  padding-top: 30px;
+}
+
+.fa-custom {
+  font-size: 10em;
+}
+
+
+
+/* skills */
+.skills {
+  text-align: center;
+  margin: 200px 0;
+}
+
+.skills > h2 {
+  padding-bottom: 50px;
+}
+
+.skills-custom {
+  font-size: 4em;
+  padding: 20px 0;
+  display: block;
+}
+
+
+/* projects */
+
+.projects {
+  width: 100%;
+  height: 300px;
+  overflow: hidden;
+  text-align: center;
+}
+
+.moving-object{
+  margin: auto;
+  font-size: 2em;
+}
+
+/* contacts */
+
+.footer {
+  width: 100%;
+  height: 300px;
+  text-align: center;
+  background-color: black;
+  padding-top: 100px;
+}
+
+.contact-custom {
+  color: #00aa00;
+  font-size: 2em;
+}
+
+.contacts > a {
+  padding: 20px;
+}
+
+.contacts > a:hover {
+  color: #007400;
+}
+/* Responsive CSS */
